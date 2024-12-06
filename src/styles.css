@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --biela: #F7FBFC;
+    --biela2: #D6E6F2;
+    --modra: #B9D7EA;
+    --modrejsia: #769FCD;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--biela);
+}

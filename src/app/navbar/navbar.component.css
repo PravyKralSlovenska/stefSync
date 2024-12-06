@@ -1,0 +1,61 @@
+.wrapper {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.navbar {
+    justify-content: space-between;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    align-items: center;
+    max-width: 1200px;
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+}
+
+/* MOZEM JEBAT CELE CSS KOKOT */
+
+#nadpis {
+    text-decoration: none;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    display: flex;
+    color: black;
+}
+
+#links {
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 4rem;
+}
+
+#links li {
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#links li:hover {
+    transition: color 0.3s ease;
+    color: red;
+}
+
+#Home {
+    color: rgb(92, 92, 253);
+}
+
+#ciarka {
+    border-radius: 30px;
+    max-width: 1200px;
+    border: solid 2px black;
+    margin: 1rem auto;
+    width: 100%;
+}

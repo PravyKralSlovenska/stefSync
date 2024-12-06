@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#nadpis {
+    color: var(--modrejsia);
+    font-size: 150px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1;
+}
+
+#formular {
+    width: max-content;
+    background: none;
+    margin-top: 0;
+}
+
+#formular input {
+    border: none;
+    border-bottom: solid 3px black;
+    background-color: var(--modra);
+    margin-right: 10px;
+}
