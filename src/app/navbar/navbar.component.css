@@ -7,7 +7,6 @@
 
 .navbar {
     justify-content: space-between;
-    font-family: Helvetica, Arial, sans-serif;
     font-weight: 500;
     align-items: center;
     max-width: 1200px;
@@ -24,7 +23,9 @@
     font-weight: bold;
     font-size: 1.8rem;
     display: flex;
-    color: black;
+    padding: 0;
+    margin: 0;
+    color: #101820;
 }
 
 #links {
@@ -55,7 +56,7 @@
 #ciarka {
     border-radius: 30px;
     max-width: 1200px;
-    border: solid 2px black;
+    border: solid 2px var(--ciarka);
     margin: 1rem auto;
     width: 100%;
 }
