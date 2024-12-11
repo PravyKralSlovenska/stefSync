@@ -17,6 +17,21 @@
   --background-farba: #232425;
 }
 
+@font-face {
+  font-family: Geologica;
+  src: url(/public/fonts/Geologica/Geologica.ttf);
+}
+
+@font-face {
+  font-family: Parkinsans;
+  src: url(/public/fonts/Parkinsans/Parkinsans.ttf);
+}
+
+@font-face {
+  font-family: Urbanist;
+  src: url(/public/fonts/Urbanist/Urbanist.ttf);
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--background-farba);
