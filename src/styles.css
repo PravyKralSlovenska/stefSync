@@ -1,23 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-  --biela: #FBEAEB;
-  --biela2: #d6e6f2;
-  --modra: #b9d7ea;
-  --modrejsia: #769fcd;
-  --ciarka: #000;
+  --farba1: #141414;
+  --farba2: #f1f7f6; 
+  --farba3: #6952eb; 
+  --farba4: #bac7da;
+  --farba5: #b3ff3b;
+  --background-farba: #FFF;
+}
+
+.dark-theme {
+  --farba1: #f1f7f6; /* Svetlá farba ako text na tmavom pozadí */
+  --farba2: #141414; /* Tmavé pozadie */
+  --farba3: #4a3db3; /* Jemnejšia verzia pôvodnej fialovej */
+  --farba4: #485a6b; /* Tmavšia verzia na doplnkové prvky */
+  --farba5: #99cc33; /* Jemnejšia zelená na interaktívne prvky */
+  --background-farba: #232425;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--biela);
-  transition: background-color 0.5s ease, color 0.5s ease;
-}
-
-.dark-theme {
-  /* background-color: black; */
-  /* color: #fff; */
-
-  --biela: #000000;
-  --ciarka: #ffffff;
-  color: #ffffff;
+  background-color: var(--background-farba);
+  color: var(--farba1);
+  transition: all 0.5s ease;
 }

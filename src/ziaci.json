@@ -1,0 +1,21 @@
+{
+    "ziaci": {
+        "jakub": {
+            "meno": "jakub",
+            "vek": 18,
+            "heslo": "123456" 
+        },
+        "ondrej": {
+            "meno": "ondrej",
+            "vek": 17,
+            "heslo": "632112lo"
+        }
+    },
+    "admini": {
+        "pista": {
+            "meno": "Pista",
+            "vek": 75,
+            "heslo": "6ds812lo"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+* {
+  /* transition: all 0.5s ease; */
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper div {
+  width: 20%;
+  height: 300px;
+  border-radius: 25px;
+  text-align: center;
+  margin: 30px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.div1 {
+  background-color: var(--farba1);
+  border: var(--farba1) 1px solid;
+  color: var(--farba2);
+}
+
+.div2 {
+  background-color: var(--farba2);
+  border: var(--farba1) 1px solid;
+}
+
+.div3 {
+  background-color: var(--farba3);
+  /* color: var(--farba2) */
+  color: #b3ff3b;
+}
+
+.div4 {
+  background-color: var(--farba4);
+  color: #b3ff3b;
+}
+
+.div5 {
+  background-color: var(--farba5);
+  color: #141414;
+}

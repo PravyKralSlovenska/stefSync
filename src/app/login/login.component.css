@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  max-width: 1000px;
+  max-height: 600px;
+  background-color: var(--farba2);
+  border-radius: 50px;
+  /* box-shadow: 0px 0px 12px var(--farba1); */
+  border: solid 2px var(--farba1) ;
+  overflow: hidden;
+}
+
+.obrazok {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+/* .obrazok::after {
+  content: "";
+  position: absolute;
+  top: 100px;
+  right: 0;
+  bottom: 100px;
+  left: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 20%,
+    var(--farba2) 100%
+  );
+  pointer-events: none;
+} */
+
+.obrazok img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(0);
+}
+
+.formular {
+  flex: 1;
+  padding: 40px;
+}
+
+#nadpis {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--farba1, #333);
+  margin-bottom: 1rem;
+}
+
+#podnadpis {
+  font-size: 1.5rem;
+  color: var(--farba1, #555);
+  margin-bottom: 2rem;
+}
+
+.formular form {
+  text-align: left;
+}
+
+.formular label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--farba1, #333);
+  font-weight: bold;
+}
+
+.formular input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1.5rem;
+  border: 2px solid var(--farba1, #cccccc);
+  border-radius: 5px;
+  background-color: var(--farba2, #f4f4f4);
+  color: var(--farba1, #333);
+  font-size: 1rem;
+}
+
+.formular input[type="checkbox"] {
+}
+
+.formular input:focus {
+  border-color: var(--farba3, #007bff);
+  outline: none;
+}
+
+.formular button {
+  width: 100%;
+  padding: 10px;
+  background: var(--farba3, #007bff);
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formular button:hover {
+  background: var(--farba4, #0056b3);
+}
+
+.formular a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--farba3, #007bff);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.formular a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .obrazok,
+  .formular {
+    flex: none;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .formular button {
+    width: 100%;
+  }
+}

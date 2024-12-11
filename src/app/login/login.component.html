@@ -1,1 +1,25 @@
-<p>login works!</p>
+<div class="container">
+  <div class="wrapper">
+    <!-- <section> -->
+    <div class="obrazok">
+      <img [src]="randomObrazok" alt="login obrazok">
+    </div>
+    <div class="formular">
+      <p id="nadpis">StefSync</p>
+      <p id="podnadpis">Log In</p>
+      <form action="login.component.ts">
+        <label for="">Prihlasovacie meno</label><br />
+        <input type="text" placeholder="Prihlasovacie meno" /><br />
+        <label for="">Heslo</label><br />
+        <input type="password" name="" id="" placeholder="Heslo" /><br />
+        <div style="display: flex; justify-content: space-around; margin-bottom: 1rem;">
+          <input type="checkbox" /> Captcha
+      </div>
+      <button type="submit">Prihlasit sa</button>
+      </form>
+      <a href="">Neviem prihlasovacie meno ci heslo</a>
+    </div>
+    <!-- </section> -->
+  </div>
+  <br />
+</div>
